@@ -13,7 +13,7 @@ body {
   max-width: 470px;
   background: linear-gradient(135deg, #00feba, #6b548a);
   color: #fff;
-  margin: 100px auto 0;
+  margin: 60px auto 0;
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
@@ -82,9 +82,18 @@ body {
   font-size: 28px;
   margin-top: -6px;
 }
-.weather{
-  display: none;
+.weather {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease, max-height 0.5s ease;
 }
+
+.weather.show {
+  opacity: 1;
+  max-height: 1000px; 
+}
+
 .error{
   margin-left: 10px;
   text-align: left;

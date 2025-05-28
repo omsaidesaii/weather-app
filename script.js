@@ -4,6 +4,7 @@ const apiUrl =
 const apiKey = 'dd2691190af442cc2b99f545eb43fd4e';
 
 const weatherIcon = document.querySelector ('.weather-icon');
+const weatherDiv = document.querySelector(".weather");
 
 const searchBox = document.querySelector ('.search input');
 const searchBtn = document.querySelector ('.search button');
@@ -13,7 +14,8 @@ async function checkWeather (city) {
 
   if (response.status == 404) {
     document.querySelector ('.error').style.display = 'block';
-    document.querySelector ('.weather').style.display = 'none';
+    weatherDiv.classList.remove("show");
+
   } else {
     var data = await response.json ();
 
@@ -35,7 +37,8 @@ async function checkWeather (city) {
       weatherIcon.src = 'images/rain.png';
     }
 
-    document.querySelector ('.weather').style.display = 'block';
+    weatherDiv.classList.add("show");
+
     document.querySelector ('.error').style.display = 'none';
   }
 }
