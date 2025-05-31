@@ -22,7 +22,7 @@ A simple and responsive weather app built with **JavaScript** that fetches real-
 ## 🔧 HOW TO USE
 
 1. Clone the repository:  
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/omsaidesaii/weather-app.git
 
 2. Navigate into the project folder:  
    cd weather-app
@@ -41,13 +41,13 @@ A simple and responsive weather app built with **JavaScript** that fetches real-
 
 To get started with this project on your local machine:
 
-git clone https://github.com/yourusername/weather-app.git  
+git clone https://github.com/omsaidesaii/weather-app.git  
 cd weather-app
 
 Then open `index.html` in your browser.
 
 ## 📌 LIVE DEMO
 
-Check it out here: [https://your-live-demo-link.com] <!-- Replace with your actual live demo URL -->
+Check it out here: [[https://your-live-demo-link.com](https://weather-app-eight-orcin-22.vercel.app/)] <!-- Replace with your actual live demo URL -->
 
 ---
