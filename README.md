@@ -48,6 +48,6 @@ Then open `index.html` in your browser.
 
 ## 📌 LIVE DEMO
 
-Check it out here: [[https://your-live-demo-link.com](https://weather-app-eight-orcin-22.vercel.app/)] <!-- Replace with your actual live demo URL -->
+Check it out here: [(https://weather-app-eight-orcin-22.vercel.app/)] <!-- Replace with your actual live demo URL -->
 
 ---
